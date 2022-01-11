@@ -1,0 +1,56 @@
+.our-collection {
+    margin-bottom: 200px;
+}
+
+.our-collection .container {
+    background-image: url(../../../Assets/Images/Group13bg-img.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50%) 65px;
+    padding-top: 50px;
+}
+
+.our-collection__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-top: 150px;
+    list-style-type: none;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.our-collection__list-item:hover {
+    box-shadow: 5px 5px 30px 5px #012e3b;
+    border-radius: 7px;
+}
+
+.our-collection__img {
+    width: 255px;
+    height: 193px;
+    margin-bottom: 71px;
+}
+
+.our-collection__heading {
+    font-family: "Fraunces", "Arial", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    color: #333D4B;
+}
+
+.our-collection__text {
+    width: 255px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333D4B;
+}

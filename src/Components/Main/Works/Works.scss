@@ -1,0 +1,123 @@
+.main-footer-section {
+    margin-bottom: 200px;
+}
+
+.main-footer-section .container {
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.main-footer-section__heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 95px;
+    font-family: "Fraunces", "Arial", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+.main-footer-section__span-line {
+    width: 760px;
+    height: 1px;
+    display: block;
+    position: relative;
+    margin-bottom: 82px;
+    margin-left: 28px;
+    background-color: #FDD6BA;
+    border: 2px solid #FDD6BA;
+}
+
+.main-footer-section__span-line::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    transform: translateY( -50%);
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    background-color: #FEFCF7;
+}
+
+.main-footer-section__span-line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    transform: translate( 50%, -50%);
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    background-color: #FEFCF7;
+}
+
+.main-footer-section__span-oval::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 31px;
+    height: 31px;
+    background-color: #FEFCF7;
+    transform: translateY(-50%);
+    right: 50%;
+    top: 0;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+}
+
+.main-footer-section__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 64px;
+}
+
+.main-footer-section__list-item + .main-footer-section__list-item {
+    margin-left: 102px;
+}
+
+.main-footer-section__list-item:hover {
+    box-shadow: 5px 5px 30px 5px #bfdeee;
+    border-radius: 7px;
+}
+
+.main-footer-section__list-item-heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 38px;
+    font-family: "Fraunces", "Arial", sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.main-footer-section__list-item-heading-info {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 42px;
+    width: 255px;
+    font-family: "Fraunces", "Arial", sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.main-footer-section__list-item-text {
+    width: 285px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.main-footer-section__link:active {
+    color: #0000ff;
+    text-decoration: underline;
+}
